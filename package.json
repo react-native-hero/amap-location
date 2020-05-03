@@ -1,0 +1,24 @@
+{
+  "name": "@react-native-hero/amap-location",
+  "version": "0.0.1",
+  "description": "react native amap-location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-hero/amap-location.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "amap location"
+  ],
+  "author": "musicode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-hero/amap-location/issues"
+  },
+  "homepage": "https://github.com/react-native-hero/amap-location#readme"
+}
