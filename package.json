@@ -1,6 +1,6 @@
 {
   "name": "@react-native-hero/amap-location",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react native amap-location",
   "main": "index.js",
   "scripts": {

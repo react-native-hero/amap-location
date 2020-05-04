@@ -1,6 +1,11 @@
+#import <React/RCTBridgeModule.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
 
-#import <Foundation/Foundation.h>
+@interface RNTAMapLocation : NSObject <RCTBridgeModule, AMapLocationManagerDelegate>
 
-@interface RNTAMapLocation : NSObject
++ (void)init:(NSString *)appKey;
+
+@property (nonatomic, strong) AMapLocationManager *locationManager;
 
 @end

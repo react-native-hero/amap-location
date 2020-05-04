@@ -26,12 +26,12 @@
     <application>
 
         <!-- value 统一前面加空格，避免读取 meta data 自动转型成数字 -->
-        <meta-data 
-            android:name="com.amap.api.v2.apikey" 
-            android:value="\ ${AMAP_APP_KEY}"
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="${AMAP_APP_KEY}"
         />
 
-        <service 
+        <service
             android:name="com.amap.api.location.APSService"
         />
 
